@@ -1,0 +1,30 @@
+SITE PARA LASH DESIGNER
+=======================
+
+COMO PERSONALIZAR (5 minutos)
+1. Abra js/main.js no VS Code ou no Bloco de Notas.
+2. Edite SÓ o bloco CONFIG no topo do arquivo:
+   - nome, whatsapp, instagram, endereço
+   - cores (principal, escuro, dourado, fundo)
+   - serviços e preços, depoimentos, perguntas frequentes, horários
+3. Salve e abra index.html no navegador.
+
+WHATSAPP
+Em "whatsapp", coloque país + DDD + número, só dígitos. Ex.: 5511999999999.
+O botão flutuante, os botões "Agendar" e o formulário abrem o WhatsApp com a mensagem pronta.
+
+FOTOS
+Coloque as imagens em assets/images/ e escreva o caminho no CONFIG, por exemplo:
+  imagens: { hero: "assets/images/foto-principal.jpg", sobre: "assets/images/sobre.jpg" }
+Nos serviços e no antes e depois, use os campos img, antes e depois.
+Sem foto, o site mostra um espaço decorativo elegante.
+
+MAPA
+No Google Maps: Compartilhar > Incorporar um mapa > copie só o endereço do src="..." e cole em mapaEmbed.
+
+PUBLICAR
+Envie a pasta inteira para qualquer hospedagem (Cloudflare Pages, Netlify, Hostinger etc.).
+
+OBSERVAÇÕES
+- Usa Google Fonts; sem internet o navegador usa fontes alternativas.
+- Os depoimentos e preços são exemplos: troque pelos reais do cliente.
